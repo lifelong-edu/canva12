@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캔바기초02</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="style.css?v=11.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="no-select">
+    <!-- 캡처 방지 및 보안 블러 오버레이 -->
+    <div id="security-overlay" class="security-overlay">
+        <div class="security-overlay-content">
+            <i class="fa-solid fa-user-shield"></i>
+            <h2>보안 보호 모드 작동 중</h2>
+            <p>본 교안은 저작권 보호를 위해 화면 캡처 및 외부 창 이탈 시 블라인드 처리됩니다.</p>
+        </div>
+    </div>
+
+    <!-- 인쇄 차단 흑백 블라인드 (Print Only) -->
+    <div class="print-blind">
+        <h2>🚫 무단 인쇄 및 PDF 저장 금지</h2>
+        <p>본 교안은 저작권 보호를 위해 인쇄할 수 없습니다.</p>
+    </div>
+
+    <div class="app-container single-column-container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="top-header">
+                <div class="header-left">
+                    <span class="badge badge-canva-tutorial">CANVA TUTORIAL</span>
+                    <h1>캔바기초02. POP 글씨 홍보물 만들기</h1>
+                </div>
+                <div class="header-right">
+                    <button id="theme-toggle-btn" class="theme-toggle-btn">
+                        <i class="fa-solid fa-sun"></i> 라이트 모드
+                    </button>
+                </div>
+            </header>
+
+            <!-- Copyright Notice Card -->
+            <div class="notice-card single-notice">
+                <div class="notice-header">🛡️ 저작권 및 수강 안내</div>
+                <p>본 교안은 <strong>디지털콘텐츠융합교육원의 강사과정</strong> 전용 수강 자료 입니다.</p>
+                <p class="notice-alert">🚫 무단 재배포 및 공유 엄금</p>
+                <p class="notice-sub">* 본 교육과정 종료 시 비공개 전환 처리되며, 저작권 보호를 위해 무단 재배포 및 외부 공유가 금지됩니다.</p>
+            </div>
+
+            <!-- Tutorial 02 Content -->
+            <div class="content-body">
+                <section id="tutorial-2" class="tutorial-section active">
+                    <div class="intro-card">
+                        <div class="intro-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                        <div class="intro-info">
+                            <h3>학습 목표</h3>
+                            <p>시선을 한눈에 사로잡는 <strong>POP(Point of Purchase) 글씨체</strong>와 톡톡 튀는 테두리/입체 효과, 손글씨 느낌의 스티커
+                                요소를 조합하여 <strong>매장 할인 이벤트, 카페 신메뉴, 팝업스토어 홍보 포스터</strong>를 제작합니다.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-container">
+                        <article class="step-card">
+                            <div class="step-header">
+                                <span class="step-tag">STEP 1</span>
+                                <h4>POP 느낌의 두껍고 귀여운 폰트 선정 및 텍스트 구성</h4>
+                            </div>
+                            <div class="step-body">
+                                <ol class="instruction-list">
+                                    <li>캔버스 크기: <code>A4 세로 (210 x 297 mm)</code> 또는 <code>인스타그램 포스터</code>로 시작합니다.</li>
+                                    <li>배경색을 눈에 잘 띄는 <strong>상큼한 노란색(예: #FFD500)</strong> 또는 <strong>비비드
+                                            오렌지(#FF5E00)</strong>로 변경합니다.</li>
+                                    <li>핵심 이벤트 문구를 크게 입력합니다 (예: <code>파격세일 50%</code>, <code>신메뉴 출시!</code>,
+                                        <code>오늘만 이가격</code>).
+                                    </li>
+                                    <li>캔바 폰트 목록에서 POP 스타일에 어울리는 두껍고 친근한 폰트를 검색하여 변경합니다:
+                                        <div class="font-tag-container">
+                                            <span class="font-tag">여기어때 잘난체</span>
+                                            <span class="font-tag">티몬 소리체</span>
+                                            <span class="font-tag">배달의민족 도현체</span>
+                                            <span class="font-tag">Sandoll 호빵체</span>
+                                            <span class="font-tag">Gmarket Sans Bold</span>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </article>
+
+                        <article class="step-card">
+                            <div class="step-header">
+                                <span class="step-tag">STEP 2</span>
+                                <h4>POP 핵심! 2중 외곽선(테두리) & 입체 테두리 효과 만들기</h4>
+                            </div>
+                            <div class="step-body">
+                                <ol class="instruction-list">
+                                    <li><strong>1차 윤곽선 적용:</strong> 텍스트 클릭 ➔ <strong>[효과]</strong> ➔ <strong>[윤곽선
+                                            (Outline)]</strong> 선택. 테두리 두께를 <code>70~100</code>으로 두껍게 주고, 색상을
+                                        <strong>'흰색(#FFFFFF)'</strong>으로 설정합니다.
+                                    </li>
+                                    <li><strong>2차 검은색 외곽선(복제 기법):</strong>
+                                        <ul style="margin-top: 6px; padding-left: 20px;">
+                                            <li>완성된 1차 텍스트를 선택하고 <code>Ctrl + D</code> (복제) 합니다.</li>
+                                            <li>복제된 텍스트의 효과를 <strong>[윤곽선]</strong> ➔ 두께 <code>100</code>, 색상을
+                                                <strong>'검은색(#000000)'</strong>으로 지정합니다.
+                                            </li>
+                                            <li>검은색 텍스트를 맨 뒤로 보내기(<code>Ctrl + [</code>)한 후, 흰색 텍스트 바로 뒤에 겹치면 완성도 높은 POP
+                                                2중 테두리가 완성됩니다!</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>스플라이스(Splice)를 활용한 쉬운 입체 POP:</strong>
+                                        <ul style="margin-top: 6px; padding-left: 20px;">
+                                            <li>텍스트 클릭 ➔ <strong>[효과]</strong> ➔ <strong>[스플라이스]</strong> 선택.</li>
+                                            <li>두께 50 / 오프셋 50 / 방향 -45도 / 내부색상은 노랑, 테두리색은 검은색으로 설정.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </article>
+
+                        <article class="step-card">
+                            <div class="step-header">
+                                <span class="step-tag">STEP 3</span>
+                                <h4>POP 분위기를 극대화하는 요소 스티커 및 리본 배치</h4>
+                            </div>
+                            <div class="step-body">
+                                <ol class="instruction-list">
+                                    <li>[요소] 탭 검색창에 다음 키워드를 검색합니다:
+                                        <div class="copy-box">
+                                            <code>폭발 스티커</code>, <code>말풍선</code>, <code>할인 배너</code>,
+                                            <code>POP 리본</code>, <code>손글씨 화살표</code>, <code>반짝이 그래픽</code>
+                                        </div>
+                                    </li>
+                                    <li>가격 강조 박스(예: <code>9,900원</code>) 뒤에 빨간색 강렬한 폭발 모양 스티커 요소를 배치합니다.</li>
+                                    <li>글자 각도를 약간 비스듬하게(5~10도 회전) 기울여 생동감 있고 역동적인 느낌을 연출합니다.</li>
+                                </ol>
+                            </div>
+                        </article>
+
+                        <article class="step-card">
+                            <div class="step-header">
+                                <span class="step-tag">SUMMARY</span>
+                                <h4>실습 요점 정리</h4>
+                            </div>
+                            <div class="step-body">
+                                <ul class="summary-list">
+                                    <li><i class="fa-solid fa-check text-success"></i> 가독성 높고 두껍고 직관적인 POP 폰트(여기어때 잘난체,
+                                        도현체 등)를 메인 문구에 적용합니다.</li>
+                                    <li><i class="fa-solid fa-check text-success"></i> [효과] ➔ [윤곽선] 및 복제(Ctrl+D) 기법으로
+                                        선명한 2중 외곽선과 입체감을 형성합니다.</li>
+                                    <li><i class="fa-solid fa-check text-success"></i> 폭발 스티커, 말풍선, 리본 요소로 가격 및 특가 혜택
+                                        시각적 강조 효과를 더합니다.</li>
+                                    <li><i class="fa-solid fa-check text-success"></i> 비비드한 배경색(노란색/오렌지)과 명확한 대비를 이루는 컬러
+                                        조합으로 시선 집중도를 극대화합니다.</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">알림 메시지</div>
+
+    <script src="config.js?v=2.0"></script>
+    <script src="script.js?v=2.0"></script>
+</body>
+
+</html>
